@@ -159,6 +159,7 @@ background-color: #404bbf;
 
 .section-darky
 { background-color: var(--color-titles-body);
+  background-image: url("../images/background-image.jpg");
 }
 
 .three-title {
@@ -203,6 +204,7 @@ padding: 60px 56px;
 align-items: center;
 justify-content: center;
 max-width: 496px;
+
 }
 
 .subtitle-web-studio-blue
@@ -329,7 +331,7 @@ padding: 120px 0;
 }
 
 .container {
-  display: flex;
+
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -432,4 +434,49 @@ padding: 120px 0;
   width: calc((100% - 72px) / 4);
   width: 100%;
   min-width: 264px;
+}
+
+.svg-images
+{
+  display: flex;
+  gap: 24px;
+}
+
+.svg-list-element
+{
+  fill: var(--color-light);
+  background-color: var(--color-text);
+  display: flex;
+  width: 16px;
+  height: 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.svg-elements-big
+{
+  fill: #8E8F99;
+  display: flex;
+  width: 168px;
+  height: 88px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.section-five{
+  display: flex;
+  gap: 24px;
+  padding: 120px 0;
+  }
+
+.svg-elements-section-two
+{
+  fill: var(--color-titles-body);
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
