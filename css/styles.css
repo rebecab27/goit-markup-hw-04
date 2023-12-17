@@ -523,3 +523,15 @@ justify-content: center;
   height: 112px;
   background-color: var(--color-light);
 }
+
+.p-footer-two
+{
+  color: #ffffffff;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.footer-list-elements
+{
+  gap: 16px;
+}
