@@ -267,7 +267,9 @@ margin-bottom: 72px;
     min-width: 264px;
     border-radius: 0px 0px 4px 4px;
     display: block;
-    
+    box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    width: 100%;
+    height: 100%;
 }
 
     
@@ -514,4 +516,10 @@ border-radius: 50%;
 align-items: center;
 border: 1px solid #8e8f99;
 justify-content: center;
+}
+
+.div-section-two
+{
+  height: 112px;
+  background-color: var(--color-light);
 }
