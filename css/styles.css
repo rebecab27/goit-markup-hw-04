@@ -5,6 +5,7 @@
   --color-p-body: #434455;
   --white-color: #ffffffff;
   --button-color:  #e7e9fc;
+  --icons-color: #8e8f99;
 }
 
 *
@@ -128,6 +129,7 @@ body {
   color: #ffffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+  box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .order-service-button
@@ -467,6 +469,10 @@ padding: 120px 0;
   border-radius: 50%;
  
 }
+.svg-list-element:hover,:focus
+{
+  border-color: #404bbf;
+}
 
 .svg-elements-big
 {
@@ -514,8 +520,14 @@ width: 100%;
 height: 100%;
 border-radius: 50%;
 align-items: center;
-border: 1px solid #8e8f99;
+border-radius: 4px;
+border: 1px solid var(--icons-color);
 justify-content: center;
+}
+
+.svg-elements-section-five:hover,:focus
+{
+  border-color: #404bbf;
 }
 
 .div-section-two
@@ -534,4 +546,27 @@ justify-content: center;
 .footer-list-elements
 {
   gap: 16px;
+}
+
+.div-one-footer
+{
+  margin-right: 120px;
+
+}
+
+.footer-icon{
+  fill: var(--color-light);
+  background-color: var(--color-text);
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.footer-icon:hover,:focus
+{
+
+  background-color: #31d0aa;
 }
