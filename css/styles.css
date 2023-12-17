@@ -612,3 +612,9 @@ justify-content: center;
 
   background-color: #31d0aa;
 }
+
+
+.svg-icons-element 
+{
+  fill: currentColor;
+}
