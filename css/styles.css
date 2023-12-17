@@ -129,7 +129,7 @@ body {
   color: #ffffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
-  box-shadow: cu valorile 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .order-service-button
@@ -415,6 +415,11 @@ padding: 120px 0;
   min-width: 264px;
 }
 
+.portfolio-image:hover, 
+:focus
+{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -476,7 +481,7 @@ padding: 120px 0;
 
 .svg-elements-big
 {
-  fill: #8E8F99;
+  fill: var(--icons-color);
   display: flex;
   width: 168px;
   height: 88px;
@@ -484,6 +489,12 @@ padding: 120px 0;
   justify-content: center;
 
 }
+
+.svg-elements-big:hover,:focus
+{
+  border-color: #404bbf;
+}
+
 
 .section-five{
   display: flex;
@@ -541,6 +552,8 @@ justify-content: center;
   color: #ffffffff;
   font-weight: 500;
   margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em; 
 }
 
 .footer-list-elements
@@ -565,7 +578,8 @@ justify-content: center;
   border-radius: 50%;
 }
 
-.footer-icon:hover,:focus
+.footer-icon:hover,
+:focus
 {
 
   background-color: #31d0aa;
