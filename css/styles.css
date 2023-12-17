@@ -618,3 +618,8 @@ justify-content: center;
 {
   fill: currentColor;
 }
+
+.svg-icons-element-light 
+{
+  fill: var(--color-light);
+}
